@@ -3,6 +3,7 @@ package com.prixaapp;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.swmansion.rnscreens.RNScreensPackage;
 import com.wheelpicker.WheelPickerPackage;
 import com.voximplant.reactnative.VoxImplantReactPackage;
 import com.zxcpoiu.incallmanager.InCallManagerPackage;
@@ -29,6 +30,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNScreensPackage(),
             new WheelPickerPackage(),
             new VoxImplantReactPackage(),
             new InCallManagerPackage(),

@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -8,21 +9,13 @@
 
 import React from 'react';
 import {
-  Platform, StyleSheet, Text, View,
+  StyleSheet, SafeAreaView,
 } from 'react-native';
-
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\nCmd+D or shake for dev menu',
-  android:
-    'Double tap R on your keyboard to reload,\n'
-    + 'Shake or press menu button for dev menu',
-});
+import Prixa from 'react-native-prixa';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
   welcome: {
@@ -38,10 +31,21 @@ const styles = StyleSheet.create({
 });
 
 const App = () => (
-  <View style={styles.container}>
-    <Text style={styles.welcome}>Welcome to React Native!</Text>
-    <Text style={styles.instructions}>To get started, edit App.js</Text>
-    <Text style={styles.instructions}>{instructions}</Text>
-  </View>
+  <SafeAreaView style={styles.container}>
+    <Prixa
+      devMode
+      onClose={() => {
+      }}
+      intent={null}
+      introSlides={[]}
+      onDestinationChange={(destination) => {
+        // eslint-disable-next-line no-console
+        console.log(destination);
+      }}
+      showIntro
+      themeColors={{}}
+      token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiOTJhNjEyMC01MDBkLTExZTktODQwYy02ZDFiMDdiZGI1YjgiLCJzdWIiOiJiOTRhOWYwMC01MDBkLTExZTktYWNjMi01ZjZiMmU3MDRkNGMifQ.E0BSMnAyrM8eLqxlcfwH9Tde6vCLPkSmXJBFS3q2ymg"
+    />
+  </SafeAreaView>
 );
 export default App;
