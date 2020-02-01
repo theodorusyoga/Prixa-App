@@ -3,6 +3,8 @@ package com.prixaapp;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.wheelpicker.WheelPickerPackage;
+import com.voximplant.reactnative.VoxImplantReactPackage;
 import com.zxcpoiu.incallmanager.InCallManagerPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.proyecto26.inappbrowser.RNInAppBrowserPackage;
@@ -27,6 +29,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new WheelPickerPackage(),
+            new VoxImplantReactPackage(),
             new InCallManagerPackage(),
             new RNGestureHandlerPackage(),
             new RNInAppBrowserPackage(),

@@ -25,6 +25,7 @@ target 'PrixaApp' do
   pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
   pod 'ReactNativeIncallManager', :path => '../node_modules/react-native-incall-manager'
   pod 'RNInAppBrowser', :path => '../node_modules/react-native-inappbrowser-reborn'
+  pod 'react-native-voximplant', path: '../node_modules/react-native-voximplant'
   pod 'yoga', path: '../node_modules/react-native/ReactCommon/yoga'
 
 end
