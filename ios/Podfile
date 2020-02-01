@@ -21,7 +21,10 @@ target 'PrixaApp' do
     'RCTText',
     'RCTWebSocket'
   ]
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
   pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+  pod 'ReactNativeIncallManager', :path => '../node_modules/react-native-incall-manager'
+  pod 'RNInAppBrowser', :path => '../node_modules/react-native-inappbrowser-reborn'
   pod 'yoga', path: '../node_modules/react-native/ReactCommon/yoga'
 
 end
