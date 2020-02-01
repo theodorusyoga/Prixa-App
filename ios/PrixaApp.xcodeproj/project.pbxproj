@@ -41,6 +41,9 @@
 		C4ED1329E595AC7183CD47E8 /* libPods-PrixaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE10548970BBEC21C905EED0 /* libPods-PrixaApp.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
+		502234D10A724CBFBCEBC5F9 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20B1BD70250A42B1A8246729 /* OpenSans-Bold.ttf */; };
+		D5823E30D7FC40368AA6DD78 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C5625FE641B4F4BB7DD1AC0 /* OpenSans-Light.ttf */; };
+		0A77D7823CBD48ADA67E0B93 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3751A361B49A4205B050BCB9 /* OpenSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -351,6 +354,9 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EE10548970BBEC21C905EED0 /* libPods-PrixaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrixaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B1BD70250A42B1A8246729 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; name = "OpenSans-Bold.ttf"; path = "../node_modules/react-native-prixa/assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6C5625FE641B4F4BB7DD1AC0 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; name = "OpenSans-Light.ttf"; path = "../node_modules/react-native-prixa/assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3751A361B49A4205B050BCB9 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; name = "OpenSans-Regular.ttf"; path = "../node_modules/react-native-prixa/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -603,6 +609,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				F8A733EA23E5608000025C4A /* Recovered References */,
 				0B4AF2F40C7AB2879DBF66C1 /* Pods */,
+				0E2E09C954BD475CB996CBBF /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -635,6 +642,17 @@
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
+		};
+		0E2E09C954BD475CB996CBBF /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				20B1BD70250A42B1A8246729 /* OpenSans-Bold.ttf */,
+				6C5625FE641B4F4BB7DD1AC0 /* OpenSans-Light.ttf */,
+				3751A361B49A4205B050BCB9 /* OpenSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -1085,6 +1103,9 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				502234D10A724CBFBCEBC5F9 /* OpenSans-Bold.ttf in Resources */,
+				D5823E30D7FC40368AA6DD78 /* OpenSans-Light.ttf in Resources */,
+				0A77D7823CBD48ADA67E0B93 /* OpenSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
