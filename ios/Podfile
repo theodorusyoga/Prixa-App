@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'PrixaApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PrixaApp
+
+  target 'PrixaApp-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'PrixaAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'PrixaApp-tvOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PrixaApp-tvOS
+
+  target 'PrixaApp-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
