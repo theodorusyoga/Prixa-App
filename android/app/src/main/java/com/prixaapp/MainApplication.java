@@ -3,7 +3,10 @@ package com.prixaapp;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.zxcpoiu.incallmanager.InCallManagerPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
+import com.proyecto26.inappbrowser.RNInAppBrowserPackage;
+import com.imagepicker.ImagePickerPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -24,7 +27,10 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new RNGestureHandlerPackage()
+            new InCallManagerPackage(),
+            new RNGestureHandlerPackage(),
+            new RNInAppBrowserPackage(),
+            new ImagePickerPackage()
       );
     }
 
